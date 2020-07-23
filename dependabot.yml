@@ -1,0 +1,15 @@
+version: 2
+updates:
+
+  - package-ecosystem: "docker"
+    directory: "a"
+    schedule:
+      interval: "hourly"
+  - package-ecosystem: "docker"
+    directory: "b"
+    schedule:
+      interval: "hourly"
+  - package-ecosystem: "docker"
+    directory: "c"
+    schedule:
+      interval: "hourly"
