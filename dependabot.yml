@@ -4,12 +4,12 @@ updates:
   - package-ecosystem: "docker"
     directory: "a"
     schedule:
-      interval: "hourly"
+      interval: "daily"
   - package-ecosystem: "docker"
     directory: "b"
     schedule:
-      interval: "hourly"
+      interval: "daily"
   - package-ecosystem: "docker"
     directory: "c"
     schedule:
-      interval: "hourly"
+      interval: "daily"
